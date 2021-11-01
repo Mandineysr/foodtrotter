@@ -1,0 +1,35 @@
+$body-font-family: 'Bellota', cursive;
+$btn-font-weight: 18px;
+
+
+
+// Styles des components ==========================================
+
+// ==== UserNav ====
+.v-chip__content a {
+    text-decoration: none;
+    font-size: medium;
+}
+
+span.v-chip__content a {
+    color: red;
+}
+
+// ==== IngredientThumbnail ====
+.description-ing {
+    color: orange;
+    font-weight: 500;
+}
+
+div.v-card__actions {
+    justify-content: flex-end;
+    padding: 0;
+}
+
+div.v-card__title {
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: 0;
+}
+

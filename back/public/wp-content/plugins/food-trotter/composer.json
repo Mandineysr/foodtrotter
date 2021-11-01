@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4" : {
+            "FoodTrotter\\" : "./class"
+        }
+    },
+    "config": {
+        "vendor-dir": "static-vendor"
+    },
+    "require": {
+        "altorouter/altorouter": "^2.0",
+        "symfony/var-dumper": "^5.3"
+    }
+}
